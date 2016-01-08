@@ -1,0 +1,75 @@
+/* CSS reset 
+(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/* General styles 
+(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li)) */
+
+body {
+    background-image: url("../images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header styles 
+	(all the styles inside the < header > or < nav > tags) 
+*/
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+/* Content styles 
+	(all the styles inside the < sections > or < aside > tags)
+*/
+
+.introSearch {
+    margin-top: 12em;
+}
+.introSearch h1,
+h3 {
+    text-align: center;
+    color: black;
+}
+.introSearch h1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+.introSearch h3 {
+    font-size: 18px;
+}
+.introSearch {
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+.searchSection {
+    text-align: center;
+}
+.searchButton {
+    background-color: navajowhite;
+    border-radius: 10px;
+    border-style: none;
+    color: black;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    width: 6rem;
+}
+.searchButton:hover {
+    background-color: #497269;
+}
+#searchResults {
+    text-align: center;
+    list-style: outside none none;
+}
